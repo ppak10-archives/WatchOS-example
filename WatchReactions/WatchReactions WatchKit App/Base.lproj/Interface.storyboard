@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="Nne-2K-nod">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="1" id="OIW-2j-VHF">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound1" destination="AgC-eL-Hgc" id="7oQ-pA-G5O"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="2" id="y0r-if-gbN">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound2" destination="AgC-eL-Hgc" id="TC4-Cj-ozN"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="XYL-s0-t8N">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="3" id="7ss-G5-cIP">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound3" destination="AgC-eL-Hgc" id="DvT-ky-Nml"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="4" id="e7C-ES-PcT">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound4" destination="AgC-eL-Hgc" id="LhZ-Ji-lzL"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="51" y="32"/>
+        </scene>
+    </scenes>
+</document>

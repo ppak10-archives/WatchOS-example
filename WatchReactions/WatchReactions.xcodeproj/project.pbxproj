@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0D74FF2666FD0400F2B5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D74FE2666FD0400F2B5B8 /* AppDelegate.swift */; };
+		EB0D75012666FD0400F2B5B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D75002666FD0400F2B5B8 /* SceneDelegate.swift */; };
+		EB0D75032666FD0400F2B5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D75022666FD0400F2B5B8 /* ViewController.swift */; };
+		EB0D75062666FD0400F2B5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75042666FD0400F2B5B8 /* Main.storyboard */; };
+		EB0D75082666FD0400F2B5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75072666FD0400F2B5B8 /* Assets.xcassets */; };
+		EB0D750B2666FD0400F2B5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75092666FD0400F2B5B8 /* LaunchScreen.storyboard */; };
+		EB0D75102666FD0400F2B5B8 /* WatchReactions WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB0D750F2666FD0400F2B5B8 /* WatchReactions WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB0D75162666FD0400F2B5B8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75142666FD0400F2B5B8 /* Interface.storyboard */; };
+		EB0D75182666FD0400F2B5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75172666FD0400F2B5B8 /* Assets.xcassets */; };
+		EB0D751F2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB0D751E2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB0D75242666FD0400F2B5B8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D75232666FD0400F2B5B8 /* InterfaceController.swift */; };
+		EB0D75262666FD0400F2B5B8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D75252666FD0400F2B5B8 /* ExtensionDelegate.swift */; };
+		EB0D75282666FD0400F2B5B8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D75272666FD0400F2B5B8 /* ComplicationController.swift */; };
+		EB0D752A2666FD0500F2B5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75292666FD0500F2B5B8 /* Assets.xcassets */; };
+		EB0D753C2667008D00F2B5B8 /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D753B2667008D00F2B5B8 /* SoundPlaying.swift */; };
+		EB0D754A2667078600F2B5B8 /* Goblin is hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D753E2667078600F2B5B8 /* Goblin is hit.wav */; };
+		EB0D754B2667078600F2B5B8 /* Offer Bones to Altar.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D753F2667078600F2B5B8 /* Offer Bones to Altar.wav */; };
+		EB0D754C2667078600F2B5B8 /* Toggle Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75402667078600F2B5B8 /* Toggle Click.wav */; };
+		EB0D754D2667078600F2B5B8 /* Goblin dies.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75412667078600F2B5B8 /* Goblin dies.wav */; };
+		EB0D754E2667078600F2B5B8 /* Guard Armour 0 Hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75422667078600F2B5B8 /* Guard Armour 0 Hit.wav */; };
+		EB0D754F2667078600F2B5B8 /* Shoo away stray dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75432667078600F2B5B8 /* Shoo away stray dog.wav */; };
+		EB0D75502667078600F2B5B8 /* Anvil Hit 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75442667078600F2B5B8 /* Anvil Hit 1.wav */; };
+		EB0D75512667078600F2B5B8 /* Town Crier Bell 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75452667078600F2B5B8 /* Town Crier Bell 1.wav */; };
+		EB0D75522667078600F2B5B8 /* Teleport Spell.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75462667078600F2B5B8 /* Teleport Spell.wav */; };
+		EB0D75532667078600F2B5B8 /* Bury bones.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75472667078600F2B5B8 /* Bury bones.wav */; };
+		EB0D75542667078600F2B5B8 /* Anvil Hit 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75482667078600F2B5B8 /* Anvil Hit 2.wav */; };
+		EB0D75552667078600F2B5B8 /* Town Crier Bell 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75492667078600F2B5B8 /* Town Crier Bell 2.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0D75112666FD0400F2B5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0D74F32666FD0300F2B5B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0D750E2666FD0400F2B5B8;
+			remoteInfo = "WatchReactions WatchKit App";
+		};
+		EB0D75202666FD0400F2B5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0D74F32666FD0300F2B5B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0D751D2666FD0400F2B5B8;
+			remoteInfo = "WatchReactions WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB0D75312666FD0500F2B5B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB0D751F2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D75352666FD0500F2B5B8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB0D75102666FD0400F2B5B8 /* WatchReactions WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB0D74FB2666FD0400F2B5B8 /* WatchReactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchReactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0D74FE2666FD0400F2B5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0D75002666FD0400F2B5B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB0D75022666FD0400F2B5B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB0D75052666FD0400F2B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0D75072666FD0400F2B5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0D750A2666FD0400F2B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB0D750C2666FD0400F2B5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0D750F2666FD0400F2B5B8 /* WatchReactions WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchReactions WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0D75152666FD0400F2B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EB0D75172666FD0400F2B5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0D75192666FD0400F2B5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0D751E2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchReactions WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0D75232666FD0400F2B5B8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EB0D75252666FD0400F2B5B8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EB0D75272666FD0400F2B5B8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EB0D75292666FD0500F2B5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0D752B2666FD0500F2B5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0D753B2667008D00F2B5B8 /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
+		EB0D753E2667078600F2B5B8 /* Goblin is hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Goblin is hit.wav"; sourceTree = "<group>"; };
+		EB0D753F2667078600F2B5B8 /* Offer Bones to Altar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Offer Bones to Altar.wav"; sourceTree = "<group>"; };
+		EB0D75402667078600F2B5B8 /* Toggle Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Toggle Click.wav"; sourceTree = "<group>"; };
+		EB0D75412667078600F2B5B8 /* Goblin dies.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Goblin dies.wav"; sourceTree = "<group>"; };
+		EB0D75422667078600F2B5B8 /* Guard Armour 0 Hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Guard Armour 0 Hit.wav"; sourceTree = "<group>"; };
+		EB0D75432667078600F2B5B8 /* Shoo away stray dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Shoo away stray dog.wav"; sourceTree = "<group>"; };
+		EB0D75442667078600F2B5B8 /* Anvil Hit 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Anvil Hit 1.wav"; sourceTree = "<group>"; };
+		EB0D75452667078600F2B5B8 /* Town Crier Bell 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Town Crier Bell 1.wav"; sourceTree = "<group>"; };
+		EB0D75462667078600F2B5B8 /* Teleport Spell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Teleport Spell.wav"; sourceTree = "<group>"; };
+		EB0D75472667078600F2B5B8 /* Bury bones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bury bones.wav"; sourceTree = "<group>"; };
+		EB0D75482667078600F2B5B8 /* Anvil Hit 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Anvil Hit 2.wav"; sourceTree = "<group>"; };
+		EB0D75492667078600F2B5B8 /* Town Crier Bell 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Town Crier Bell 2.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0D74F82666FD0400F2B5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D751B2666FD0400F2B5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0D74F22666FD0300F2B5B8 = {
+			isa = PBXGroup;
+			children = (
+				EB0D74FD2666FD0400F2B5B8 /* WatchReactions */,
+				EB0D75132666FD0400F2B5B8 /* WatchReactions WatchKit App */,
+				EB0D75222666FD0400F2B5B8 /* WatchReactions WatchKit Extension */,
+				EB0D74FC2666FD0400F2B5B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0D74FC2666FD0400F2B5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D74FB2666FD0400F2B5B8 /* WatchReactions.app */,
+				EB0D750F2666FD0400F2B5B8 /* WatchReactions WatchKit App.app */,
+				EB0D751E2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0D74FD2666FD0400F2B5B8 /* WatchReactions */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D74FE2666FD0400F2B5B8 /* AppDelegate.swift */,
+				EB0D75002666FD0400F2B5B8 /* SceneDelegate.swift */,
+				EB0D75022666FD0400F2B5B8 /* ViewController.swift */,
+				EB0D75042666FD0400F2B5B8 /* Main.storyboard */,
+				EB0D75072666FD0400F2B5B8 /* Assets.xcassets */,
+				EB0D75092666FD0400F2B5B8 /* LaunchScreen.storyboard */,
+				EB0D750C2666FD0400F2B5B8 /* Info.plist */,
+			);
+			path = WatchReactions;
+			sourceTree = "<group>";
+		};
+		EB0D75132666FD0400F2B5B8 /* WatchReactions WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D75142666FD0400F2B5B8 /* Interface.storyboard */,
+				EB0D75172666FD0400F2B5B8 /* Assets.xcassets */,
+				EB0D75192666FD0400F2B5B8 /* Info.plist */,
+			);
+			path = "WatchReactions WatchKit App";
+			sourceTree = "<group>";
+		};
+		EB0D75222666FD0400F2B5B8 /* WatchReactions WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D75232666FD0400F2B5B8 /* InterfaceController.swift */,
+				EB0D75252666FD0400F2B5B8 /* ExtensionDelegate.swift */,
+				EB0D75272666FD0400F2B5B8 /* ComplicationController.swift */,
+				EB0D75292666FD0500F2B5B8 /* Assets.xcassets */,
+				EB0D752B2666FD0500F2B5B8 /* Info.plist */,
+				EB0D753B2667008D00F2B5B8 /* SoundPlaying.swift */,
+				EB0D753D2667078600F2B5B8 /* osrs_samples */,
+			);
+			path = "WatchReactions WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EB0D753D2667078600F2B5B8 /* osrs_samples */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D753E2667078600F2B5B8 /* Goblin is hit.wav */,
+				EB0D753F2667078600F2B5B8 /* Offer Bones to Altar.wav */,
+				EB0D75402667078600F2B5B8 /* Toggle Click.wav */,
+				EB0D75412667078600F2B5B8 /* Goblin dies.wav */,
+				EB0D75422667078600F2B5B8 /* Guard Armour 0 Hit.wav */,
+				EB0D75432667078600F2B5B8 /* Shoo away stray dog.wav */,
+				EB0D75442667078600F2B5B8 /* Anvil Hit 1.wav */,
+				EB0D75452667078600F2B5B8 /* Town Crier Bell 1.wav */,
+				EB0D75462667078600F2B5B8 /* Teleport Spell.wav */,
+				EB0D75472667078600F2B5B8 /* Bury bones.wav */,
+				EB0D75482667078600F2B5B8 /* Anvil Hit 2.wav */,
+				EB0D75492667078600F2B5B8 /* Town Crier Bell 2.wav */,
+			);
+			path = osrs_samples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0D74FA2666FD0400F2B5B8 /* WatchReactions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0D75362666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions" */;
+			buildPhases = (
+				EB0D74F72666FD0400F2B5B8 /* Sources */,
+				EB0D74F82666FD0400F2B5B8 /* Frameworks */,
+				EB0D74F92666FD0400F2B5B8 /* Resources */,
+				EB0D75352666FD0500F2B5B8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0D75122666FD0400F2B5B8 /* PBXTargetDependency */,
+			);
+			name = WatchReactions;
+			productName = WatchReactions;
+			productReference = EB0D74FB2666FD0400F2B5B8 /* WatchReactions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0D750E2666FD0400F2B5B8 /* WatchReactions WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0D75322666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit App" */;
+			buildPhases = (
+				EB0D750D2666FD0400F2B5B8 /* Resources */,
+				EB0D75312666FD0500F2B5B8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0D75212666FD0400F2B5B8 /* PBXTargetDependency */,
+			);
+			name = "WatchReactions WatchKit App";
+			productName = "WatchReactions WatchKit App";
+			productReference = EB0D750F2666FD0400F2B5B8 /* WatchReactions WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EB0D751D2666FD0400F2B5B8 /* WatchReactions WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0D752E2666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit Extension" */;
+			buildPhases = (
+				EB0D751A2666FD0400F2B5B8 /* Sources */,
+				EB0D751B2666FD0400F2B5B8 /* Frameworks */,
+				EB0D751C2666FD0400F2B5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchReactions WatchKit Extension";
+			productName = "WatchReactions WatchKit Extension";
+			productReference = EB0D751E2666FD0400F2B5B8 /* WatchReactions WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0D74F32666FD0300F2B5B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB0D74FA2666FD0400F2B5B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EB0D750E2666FD0400F2B5B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EB0D751D2666FD0400F2B5B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EB0D74F62666FD0300F2B5B8 /* Build configuration list for PBXProject "WatchReactions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0D74F22666FD0300F2B5B8;
+			productRefGroup = EB0D74FC2666FD0400F2B5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0D74FA2666FD0400F2B5B8 /* WatchReactions */,
+				EB0D750E2666FD0400F2B5B8 /* WatchReactions WatchKit App */,
+				EB0D751D2666FD0400F2B5B8 /* WatchReactions WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0D74F92666FD0400F2B5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D750B2666FD0400F2B5B8 /* LaunchScreen.storyboard in Resources */,
+				EB0D75082666FD0400F2B5B8 /* Assets.xcassets in Resources */,
+				EB0D75062666FD0400F2B5B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D750D2666FD0400F2B5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D75182666FD0400F2B5B8 /* Assets.xcassets in Resources */,
+				EB0D75162666FD0400F2B5B8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D751C2666FD0400F2B5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D754C2667078600F2B5B8 /* Toggle Click.wav in Resources */,
+				EB0D75512667078600F2B5B8 /* Town Crier Bell 1.wav in Resources */,
+				EB0D75522667078600F2B5B8 /* Teleport Spell.wav in Resources */,
+				EB0D752A2666FD0500F2B5B8 /* Assets.xcassets in Resources */,
+				EB0D75502667078600F2B5B8 /* Anvil Hit 1.wav in Resources */,
+				EB0D754D2667078600F2B5B8 /* Goblin dies.wav in Resources */,
+				EB0D754A2667078600F2B5B8 /* Goblin is hit.wav in Resources */,
+				EB0D754F2667078600F2B5B8 /* Shoo away stray dog.wav in Resources */,
+				EB0D75542667078600F2B5B8 /* Anvil Hit 2.wav in Resources */,
+				EB0D75532667078600F2B5B8 /* Bury bones.wav in Resources */,
+				EB0D754E2667078600F2B5B8 /* Guard Armour 0 Hit.wav in Resources */,
+				EB0D75552667078600F2B5B8 /* Town Crier Bell 2.wav in Resources */,
+				EB0D754B2667078600F2B5B8 /* Offer Bones to Altar.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0D74F72666FD0400F2B5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D75032666FD0400F2B5B8 /* ViewController.swift in Sources */,
+				EB0D74FF2666FD0400F2B5B8 /* AppDelegate.swift in Sources */,
+				EB0D75012666FD0400F2B5B8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D751A2666FD0400F2B5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D75262666FD0400F2B5B8 /* ExtensionDelegate.swift in Sources */,
+				EB0D75242666FD0400F2B5B8 /* InterfaceController.swift in Sources */,
+				EB0D753C2667008D00F2B5B8 /* SoundPlaying.swift in Sources */,
+				EB0D75282666FD0400F2B5B8 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0D75122666FD0400F2B5B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0D750E2666FD0400F2B5B8 /* WatchReactions WatchKit App */;
+			targetProxy = EB0D75112666FD0400F2B5B8 /* PBXContainerItemProxy */;
+		};
+		EB0D75212666FD0400F2B5B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0D751D2666FD0400F2B5B8 /* WatchReactions WatchKit Extension */;
+			targetProxy = EB0D75202666FD0400F2B5B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0D75042666FD0400F2B5B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0D75052666FD0400F2B5B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB0D75092666FD0400F2B5B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0D750A2666FD0400F2B5B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB0D75142666FD0400F2B5B8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0D75152666FD0400F2B5B8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0D752C2666FD0500F2B5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB0D752D2666FD0500F2B5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB0D752F2666FD0500F2B5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		EB0D75302666FD0500F2B5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		EB0D75332666FD0500F2B5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				IBSC_MODULE = WatchReactions_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		EB0D75342666FD0500F2B5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				IBSC_MODULE = WatchReactions_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		EB0D75372666FD0500F2B5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				INFOPLIST_FILE = WatchReactions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB0D75382666FD0500F2B5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4V4F3DL2Q;
+				INFOPLIST_FILE = WatchReactions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppak10.WatchReactions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0D74F62666FD0300F2B5B8 /* Build configuration list for PBXProject "WatchReactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0D752C2666FD0500F2B5B8 /* Debug */,
+				EB0D752D2666FD0500F2B5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0D752E2666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0D752F2666FD0500F2B5B8 /* Debug */,
+				EB0D75302666FD0500F2B5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0D75322666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0D75332666FD0500F2B5B8 /* Debug */,
+				EB0D75342666FD0500F2B5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0D75362666FD0500F2B5B8 /* Build configuration list for PBXNativeTarget "WatchReactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0D75372666FD0500F2B5B8 /* Debug */,
+				EB0D75382666FD0500F2B5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0D74F32666FD0300F2B5B8 /* Project object */;
+}
