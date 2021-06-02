@@ -34,6 +34,10 @@
 		EB0D75532667078600F2B5B8 /* Bury bones.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75472667078600F2B5B8 /* Bury bones.wav */; };
 		EB0D75542667078600F2B5B8 /* Anvil Hit 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75482667078600F2B5B8 /* Anvil Hit 2.wav */; };
 		EB0D75552667078600F2B5B8 /* Town Crier Bell 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB0D75492667078600F2B5B8 /* Town Crier Bell 2.wav */; };
+		EB0D755726670A0200F2B5B8 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D755626670A0200F2B5B8 /* TableInterfaceController.swift */; };
+		EB0D755926670A7300F2B5B8 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D755826670A7300F2B5B8 /* SoundRow.swift */; };
+		EB0D755B2667129E00F2B5B8 /* CustomInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D755A2667129E00F2B5B8 /* CustomInterfaceController.swift */; };
+		EB0D755D2667143100F2B5B8 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D755C2667143100F2B5B8 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,10 @@
 		EB0D75472667078600F2B5B8 /* Bury bones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bury bones.wav"; sourceTree = "<group>"; };
 		EB0D75482667078600F2B5B8 /* Anvil Hit 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Anvil Hit 2.wav"; sourceTree = "<group>"; };
 		EB0D75492667078600F2B5B8 /* Town Crier Bell 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Town Crier Bell 2.wav"; sourceTree = "<group>"; };
+		EB0D755626670A0200F2B5B8 /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableInterfaceController.swift; path = "WatchReactions WatchKit App/TableInterfaceController.swift"; sourceTree = SOURCE_ROOT; };
+		EB0D755826670A7300F2B5B8 /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
+		EB0D755A2667129E00F2B5B8 /* CustomInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomInterfaceController.swift; path = "WatchReactions WatchKit App/CustomInterfaceController.swift"; sourceTree = SOURCE_ROOT; };
+		EB0D755C2667143100F2B5B8 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FileManager-DocumentsDirectory.swift"; path = "WatchReactions WatchKit App/FileManager-DocumentsDirectory.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +185,10 @@
 		EB0D75222666FD0400F2B5B8 /* WatchReactions WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				EB0D755C2667143100F2B5B8 /* FileManager-DocumentsDirectory.swift */,
+				EB0D755A2667129E00F2B5B8 /* CustomInterfaceController.swift */,
+				EB0D755626670A0200F2B5B8 /* TableInterfaceController.swift */,
+				EB0D755826670A7300F2B5B8 /* SoundRow.swift */,
 				EB0D75232666FD0400F2B5B8 /* InterfaceController.swift */,
 				EB0D75252666FD0400F2B5B8 /* ExtensionDelegate.swift */,
 				EB0D75272666FD0400F2B5B8 /* ComplicationController.swift */,
@@ -360,9 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0D755726670A0200F2B5B8 /* TableInterfaceController.swift in Sources */,
 				EB0D75262666FD0400F2B5B8 /* ExtensionDelegate.swift in Sources */,
+				EB0D755926670A7300F2B5B8 /* SoundRow.swift in Sources */,
 				EB0D75242666FD0400F2B5B8 /* InterfaceController.swift in Sources */,
+				EB0D755B2667129E00F2B5B8 /* CustomInterfaceController.swift in Sources */,
 				EB0D753C2667008D00F2B5B8 /* SoundPlaying.swift in Sources */,
+				EB0D755D2667143100F2B5B8 /* FileManager-DocumentsDirectory.swift in Sources */,
 				EB0D75282666FD0400F2B5B8 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

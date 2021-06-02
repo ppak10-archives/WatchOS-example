@@ -44,9 +44,62 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <segue destination="Fdu-Tq-ccx" kind="relationship" relationship="nextPage" id="uj9-Qe-KW0"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="51" y="32"/>
+            <point key="canvasLocation" x="41" y="32"/>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="MqV-TC-vlX">
+            <objects>
+                <controller id="Fdu-Tq-ccx" customClass="TableInterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="T6J-9Z-P8S">
+                            <items>
+                                <tableRow identifier="Row" id="4er-1m-jaD" userLabel="Row" customClass="SoundRow" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="q0k-tl-n3N">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="JAo-Di-qOk"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="JAo-Di-qOk" id="yPk-Ov-y6Q"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="T6J-9Z-P8S" id="g6n-hm-sWn"/>
+                        <segue destination="s4z-Cq-Nch" kind="relationship" relationship="nextPage" id="XJl-qK-IHg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="303" y="32"/>
+        </scene>
+        <!--Custom Interface Controller-->
+        <scene sceneID="f4K-px-XrL">
+            <objects>
+                <controller id="s4z-Cq-Nch" customClass="CustomInterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="Record" id="1zQ-bZ-3rJ">
+                            <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="recordTapped" destination="s4z-Cq-Nch" id="u3B-m9-64D"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="Play" id="BYY-hD-BoU">
+                            <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="playTapped" destination="s4z-Cq-Nch" id="eb9-6z-woJ"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="584" y="32"/>
         </scene>
     </scenes>
 </document>
